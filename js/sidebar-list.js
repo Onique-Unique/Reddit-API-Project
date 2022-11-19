@@ -23,7 +23,7 @@ window.addEventListener("load", () => {
     "/nsfw-pages/reddit-nsfw-group.html","/nsfw-pages/thick-nsfw-reddit.html","/nsfw-pages/reddit-nsfw-outdoors.html","/nsfw-pages/mature-nsfw-reddit.html","/nsfw-pages/reddit-orgasm-nsfw.html",];
 
 
-    var aLinkName = ["Reddit NSFW 🔥","Gone Wild 📙","Nudes ✨","Nsfw comics","Tiktok NSFW","XXX","Best NSFW","Random Sexy","Dirty","Korean","Anime","Petite Wild","Hardcore","Chinese","Billie Eilish","Swingers Wild",
+    var aLinkName = ["Reddit NSFW 🔥","Gone Wild 😈","Nudes ✨","Nsfw comics","Tiktok NSFW","XXX","Best NSFW","Random Sexy","Dirty","Korean","Anime","Petite Wild","Hardcore","Chinese","Billie Eilish","Swingers Wild",
     "Omegle","Tinder","Public","Lingerie","Hero Academia","Scrubs","Braces","Victoria Secret","Tight Dress","Legal Teens","Steven Universe","Webcam NSFW","Cosplay NSFW","Asian","Games","Hijab","Lesbian","Gif NSFW","Tease",
     "RWBY NSFW","Pokimane","Indian","Bikini","Beach NSFW","Trashy","Wife","Take It Off","At Work","Mom NSFW","Real Girls","Big Brother","Dress NSFW","Feet","Blacked","Latina","College NSFW","Snapchat NSFW",
     "Fit Girls NSFW","Pierced NSFW","Gabbie Carter","Dare NSFW","Spanking","Panties","Flashing","Yoga NSFW","Witcher NSFW","Young","Shower NSFW","Grool","NSFW Outfits","Ariana Grande","Progress Pics NSFW","Japan","Redhead NSFW",
