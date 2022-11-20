@@ -13,6 +13,10 @@ imageClickPopupInner.innerHTML = `
     <div class="pay-select">
         <button id="to-pay-btn">Yes</button>
         <button id="do-not-proceed">No</button>
+    </div>
+    <br>
+    <div id="popup-lower-text">
+      <p>Unlimited Content - Cheaper Than OnlyFans!!</p>
     </div>`;
 
     // Append Payment Request elements to container and body of website

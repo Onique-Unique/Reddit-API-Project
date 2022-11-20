@@ -54,6 +54,11 @@
     background-color: greenyellow;
 }
 
+.image-click-container .image-click #popup-lower-text{
+    background-color: azure;
+    border-radius: 2.5px;
+}
+
 @media (max-width: 768px){
     .image-click-container .image-click {
         width: 90%;
