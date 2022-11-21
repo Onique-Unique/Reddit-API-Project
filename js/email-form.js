@@ -1,7 +1,7 @@
 document.getElementById("gamelounge-contact").innerHTML = `<i class="far fa-times-circle form-exit"></i>
 <h3> Contact us</h3>
 <div class="form-text-h4">
-    <h4>Become a page moderator or offer suggestions</h4>
+    <h4>Report broken page or offer suggestions</h4>
     <h4 id="last-h4"><i class="fas fa-clipboard-check"></i><i class="fas fa-gifts"></i> Get rewarded for your contributions..</h4>
 </div>
 <!--  -->
