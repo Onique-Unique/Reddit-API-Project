@@ -21,10 +21,10 @@ window.addEventListener("load", () => {
     "/nsfw-pages/reddit-favorite-nsfw","/nsfw-pages/reddit-classy-nsfw","/nsfw-pages/reddit-nsfw-cougars","/nsfw-pages/reddit-nsfw-fitness","/nsfw-pages/nsfw-busted-reddit","/nsfw-pages/belle-delphine-nsfw-reddit","/nsfw-pages/eating-her-out-nsfw-reddit",
     "/nsfw-pages/furry-games-nsfw-reddit","/nsfw-pages/nsfw-heels-reddit","/nsfw-pages/nsfw-playboy-reddit","/nsfw-pages/reddit-nsfw-cheerleader","/nsfw-pages/reddit-nsfw-pick-one","/nsfw-pages/reddit-cute-nsfw","/nsfw-pages/fallout-nsfw-reddit",
     "/nsfw-pages/reddit-nsfw-group","/nsfw-pages/thick-nsfw-reddit","/nsfw-pages/reddit-nsfw-outdoors","/nsfw-pages/mature-nsfw-reddit","/nsfw-pages/reddit-orgasm-nsfw","/nsfw-pages/reddit-cyberpunk-nsfw","/nsfw-pages/reddit-tiny-nsfw",
-    "/nsfw-pages/reddit-nsfw-bride","/nsfw-pages/reddit-nsfw-transformation","/nsfw-pages/nsfw-military-reddit","/nsfw-pages/black-women-nsfw-reddit","/nsfw-pages/nymphos-nsfw-reddit","/nsfw-pages/reddit-nsfw-pornstars",
+    "/nsfw-pages/reddit-nsfw-bride","/nsfw-pages/reddit-nsfw-transformation","/nsfw-pages/nsfw-military-reddit","/nsfw-pages/black-women-nsfw-reddit","/nsfw-pages/nymphos-nsfw-reddit","/nsfw-pages/reddit-nsfw-pornstars","/nsfw-pages/sexy-egirl",
     "/nsfw-pages/nsfw-disney-reddit","/nsfw-pages/reddit-nsfw-festival","/nsfw-pages/reddit-fire-emblem-nsfw","/nsfw-pages/reddit-models-nsfw","/nsfw-pages/muslim-nsfw-reddit","/nsfw-pages/reddit-instagram-nsfw","/nsfw-pages/reddit-asian-american-nsfw",
     "/nsfw-pages/reddit-skinny-nsfw","/nsfw-pages/nsfw-reddit-feed","/nsfw-pages/reddit-amisexy-nsfw","/nsfw-pages/nsfw-skyrim-reddit","/nsfw-pages/reddit-nsfw-mirror-selfies","/nsfw-pages/sexually-frustrated-reddit-nsfw","/nsfw-pages/reddit-nsfw-frontpage",
-    "/nsfw-pages/reddit-nsfw-jilling","/nsfw-pages/reddit-nsfw-barista","/nsfw-pages/reddit-leggings-nsfw","/nsfw-pages/titties-nsfw","/nsfw-pages/upskirt-nsfw","/nsfw-pages/reddit-nsfw-assholes-behind-thongs","/nsfw-pages/futa-hentai-nsfw",];
+    "/nsfw-pages/reddit-nsfw-jilling","/nsfw-pages/reddit-nsfw-barista","/nsfw-pages/reddit-leggings-nsfw","/nsfw-pages/titties-nsfw","/nsfw-pages/upskirt-nsfw","/nsfw-pages/reddit-nsfw-assholes-behind-thongs","/nsfw-pages/futa-hentai-nsfw","/nsfw-pages/baddiehub",];
 
 
     var aLinkName = ["Reddit NSFW 🔥","Gone Wild 😈","Nudes ✨","Nsfw comics","Tiktok NSFW","Cum","Blowjob","XXX","Best NSFW","Random Sexy","Dirty","Porn","Korean","Anime","Petite Wild","Hardcore","Chinese","Billie Eilish","Swingers Wild","Milf",
@@ -34,8 +34,8 @@ window.addEventListener("load", () => {
     "Pregnant NSFW","Romi Rain","Throat NSFW","Busty","GirlFriend NSFW","Boudoir NSFW","Goth NSFW","Chubby NSFW","BBC","Mixed NSFW","Sakimichan NSFW","Blonde NSFW","Exhibitionist Fun","Tattoo NSFW","Cleavage","BDSM","KPOP NSFW","Camel Toe",
     "Glasses NSFW","Teacher NSFW","Squirting","Russian NSFW","Pixel NSFW","Adorable NSFW","Harley Quinn NSFW","Overwatch NSFW","Tan Lines NSFW","Changing Room NSFW","Thai NSFW","DDLC NSFW","BRA NSFW","Favorite NSFW","Classy NSFW",
     "Cougars","Fitness NSFW","Busted Holes","Belle Delphine","Eating Her Out","Furry NSFW","Heels NSFW","Playboy","Cheerleader","Pick One","Cute NSFW","Fallout NSFW","Group NSFW","Thick NSFW","Outdoors NSFW","Mature","Orgasm",
-    "Cyberpunk NSFW","Tiny NSFW","Bride NSFW","Transformation NSFW","Military NSFW","Black Women","Nymphos","Pornstars","Disney NSFW","Festival NSFW","Fire Emblem NSFW","Models NSFW","Muslim NSFW","Instagram NSFW","Asian American NSFW",
-    "Skinny NSFW","Feed NSFW","AmISexy NSFW","Skyrim NSFW","Mirror Selfie NSFW","Sexually Frustrated","Frontpage NSFW","Jilling","Barista NSFW","Leggings NSFW","Titties NSFW","Upskirt NSFW","Assholes Behind Thong","Futa Hentai",];
+    "Cyberpunk NSFW","Tiny NSFW","Bride NSFW","Transformation NSFW","Military NSFW","Black Women","Nymphos","Pornstars","Sexy Egirl","Disney NSFW","Festival NSFW","Fire Emblem NSFW","Models NSFW","Muslim NSFW","Instagram NSFW","Asian American NSFW",
+    "Skinny NSFW","Feed NSFW","AmISexy NSFW","Skyrim NSFW","Mirror Selfie NSFW","Sexually Frustrated","Frontpage NSFW","Jilling","Barista NSFW","Leggings NSFW","Titties NSFW","Upskirt NSFW","Assholes Behind Thong","Futa Hentai","Baddiehub",];
     
     // store url pathname as string into current variable 
     const currentUrl = window.location.pathname.toString();
