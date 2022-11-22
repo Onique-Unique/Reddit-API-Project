@@ -1,22 +1,22 @@
 // Related Links
 window.addEventListener("load", () => {
     // Array of links and anchor link name to be related by category by order
-    var relatedLinks = ["/index","/nsfw-pages/reddit-gone-wild","/nsfw-pages/reddit-nudes","/nsfw-pages/nsfwcomics-reddit","/nsfw-pages/reddit-tiktok-nsfw","/nsfw-pages/reddit-nsfw-cum",
+    var relatedLinks = ["/index","/nsfw-pages/reddit-gone-wild","/nsfw-pages/reddit-nudes","/nsfw-pages/nsfwcomics-reddit","/nsfw-pages/reddit-tiktok-nsfw","/nsfw-pages/reddit-nsfw-cum","/nsfw-pages/reddit-nsfw-blowjobs",
     "/nsfw-pages/reddit-xxx","/nsfw-pages/best-reddit-nsfw","/nsfw-pages/reddit-random-nsfw","/nsfw-pages/reddit-nsfw-dirty","/nsfw-pages/reddit-porn-nsfw","/nsfw-pages/korean-nsfw-reddit","/nsfw-pages/anime-nsfw-reddit",
     "/nsfw-pages/reddit-petite-gone-wild","/nsfw-pages/reddit-nsfw-hardcore","/nsfw-pages/nsfw-china-reddit","/nsfw-pages/billie-eilish-nsfw-reddit","/nsfw-pages/reddit-gone-wild-swingers","/nsfw-pages/milf-nsfw",
-    "/nsfw-pages/omegle-nsfw-reddit","/nsfw-pages/tinder-nsfw-reddit","/nsfw-pages/nsfw-public-reddit","/nsfw-pages/reddit-nsfw-lingerie","/nsfw-pages/my-hero-academia-nsfw-reddit",
+    "/nsfw-pages/omegle-nsfw-reddit","/nsfw-pages/tinder-nsfw-reddit","/nsfw-pages/nsfw-public-reddit","/nsfw-pages/reddit-nsfw-lingerie","/nsfw-pages/my-hero-academia-nsfw-reddit","/nsfw-pages/reddit-nsfw-creampie",
     "/nsfw-pages/reddit-nsfw-scrubs","/nsfw-pages/reddit-braces-nsfw","/nsfw-pages/victoria-secret-nsfw-reddit","/nsfw-pages/tight-dress-nsfw","/nsfw-pages/reddit-nsfw-teens","/nsfw-pages/perfect-tits-nsfw",
-    "/nsfw-pages/reddit-steven-universe-nsfw","/nsfw-pages/reddit-nsfw-webcam","/nsfw-pages/reddit-nsfw-cosplay","/nsfw-pages/reddit-asian-nsfw","/nsfw-pages/reddit-nsfw-anal",
-    "/nsfw-pages/reddit-nsfw-games","/nsfw-pages/hijab-nsfw-reddit","/nsfw-pages/reddit-lesbian-nsfw","/nsfw-pages/nsfw-gifs-reddit","/nsfw-pages/iama-nsfw-reddit","/nsfw-pages/reddit-nsfw-rwby",
-    "/nsfw-pages/pokimane-nsfw-reddit","/nsfw-pages/reddit-nsfw-indian","/nsfw-pages/reddit-nsfw-bikini","/nsfw-pages/reddit-nsfw-beach","/nsfw-pages/reddit-trashy-nsfw","/nsfw-pages/reddit-wife-nsfw",
+    "/nsfw-pages/reddit-steven-universe-nsfw","/nsfw-pages/reddit-nsfw-webcam","/nsfw-pages/reddit-nsfw-cosplay","/nsfw-pages/reddit-asian-nsfw","/nsfw-pages/reddit-nsfw-anal","/nsfw-pages/reddit-nsfw-threesome",
+    "/nsfw-pages/reddit-nsfw-games","/nsfw-pages/hijab-nsfw-reddit","/nsfw-pages/reddit-lesbian-nsfw","/nsfw-pages/nsfw-gifs-reddit","/nsfw-pages/iama-nsfw-reddit","/nsfw-pages/reddit-nsfw-rwby","/nsfw-pages/reddit-nsfw-hentai",
+    "/nsfw-pages/pokimane-nsfw-reddit","/nsfw-pages/reddit-nsfw-indian","/nsfw-pages/reddit-nsfw-bikini","/nsfw-pages/reddit-nsfw-beach","/nsfw-pages/reddit-trashy-nsfw","/nsfw-pages/reddit-wife-nsfw","/nsfw-pages/pawg-nsfw",
     "/nsfw-pages/reddit-nsfw-take-it-off","/nsfw-pages/nsfw-reddit-work","/nsfw-pages/reddit-nsfw-mom","/nsfw-pages/nsfw-reddit-real-girls","/nsfw-pages/reddit-big-brother-nsfw","/nsfw-pages/reddit-nsfw-dress",
-    "/nsfw-pages/reddit-nsfw-feet","/nsfw-pages/black-nsfw-reddit","/nsfw-pages/reddit-latina-nsfw","/nsfw-pages/reddit-college-nsfw","/nsfw-pages/nsfw-snapchat-reddit","/nsfw-pages/reddit-fit-girls-nsfw",
+    "/nsfw-pages/reddit-nsfw-feet","/nsfw-pages/black-nsfw-reddit","/nsfw-pages/reddit-latina-nsfw","/nsfw-pages/reddit-college-nsfw","/nsfw-pages/nsfw-snapchat-reddit","/nsfw-pages/reddit-nsfw-cuckold","/nsfw-pages/reddit-fit-girls-nsfw",
     "/nsfw-pages/reddit-nsfw-pierced","/nsfw-pages/reddit-nsfw-gabbie-carter","/nsfw-pages/reddit-nsfw-dare","/nsfw-pages/reddit-nsfw-spanking","/nsfw-pages/reddit-nsfw-panties","/nsfw-pages/reddit-nsfw-flashing",
-    "/nsfw-pages/reddit-nsfw-yoga","/nsfw-pages/witcher-nsfw-reddit","/nsfw-pages/nsfw-reddit-young","/nsfw-pages/nsfw-reddit-shower","/nsfw-pages/reddit-nsfw-grool","/nsfw-pages/reddit-nsfw-outfits",
+    "/nsfw-pages/reddit-nsfw-yoga","/nsfw-pages/witcher-nsfw-reddit","/nsfw-pages/nsfw-reddit-young","/nsfw-pages/nsfw-reddit-shower","/nsfw-pages/reddit-nsfw-grool","/nsfw-pages/reddit-nsfw-outfits","/nsfw-pages/interracial-nsfw-reddit",
     "/nsfw-pages/ariana-grande-nsfw-reddit","/nsfw-pages/reddit-progress-pics-nsfw","/nsfw-pages/nsfw-japan-reddit","/nsfw-pages/redhead-nsfw-reddit","/nsfw-pages/reddit-pregnancy-nsfw","/nsfw-pages/reddit-nsfw-romi-rain",
     "/nsfw-pages/reddit-nsfw-throat","/nsfw-pages/reddit-nsfw-busty","/nsfw-pages/reddit-nsfw-gf","/nsfw-pages/reddit-boudoir-nsfw","/nsfw-pages/reddit-nsfw-goth","/nsfw-pages/chubby-nsfw-reddit","/nsfw-pages/reddit-nsfw-bbc",
-    "/nsfw-pages/reddit-mixed-nsfw","/nsfw-pages/sakimichan-nsfw-reddit","/nsfw-pages/reddit-nsfw-blonde","/nsfw-pages/reddit-nsfw-exhibitionist","/nsfw-pages/tattoo-nsfw-reddit","/nsfw-pages/reddit-nsfw-cleavage",
-    "/nsfw-pages/reddit-kpop-nsfw","/nsfw-pages/reddit-nsfw-glasses","/nsfw-pages/reddit-nsfw-teacher","/nsfw-pages/nsfw-squirt-reddit","/nsfw-pages/reddit-russian-nsfw","/nsfw-pages/reddit-pixel-nsfw","/nsfw-pages/reddit-adorable-nsfw",
+    "/nsfw-pages/reddit-mixed-nsfw","/nsfw-pages/sakimichan-nsfw-reddit","/nsfw-pages/reddit-nsfw-blonde","/nsfw-pages/reddit-nsfw-exhibitionist","/nsfw-pages/tattoo-nsfw-reddit","/nsfw-pages/reddit-nsfw-cleavage","/nsfw-pages/reddit-nsfw-bdsm",
+    "/nsfw-pages/reddit-kpop-nsfw","/nsfw-pages/camel-toe-nsfw","/nsfw-pages/reddit-nsfw-glasses","/nsfw-pages/reddit-nsfw-teacher","/nsfw-pages/nsfw-squirt-reddit","/nsfw-pages/reddit-russian-nsfw","/nsfw-pages/reddit-pixel-nsfw","/nsfw-pages/reddit-adorable-nsfw",
     "/nsfw-pages/reddit-harley-quinn-nsfw","/nsfw-pages/reddit-overwatch-nsfw","/nsfw-pages/reddit-nsfw-tan-lines","/nsfw-pages/reddit-nsfw-changing-room","/nsfw-pages/reddit-thai-nsfw","/nsfw-pages/ddlc-nsfw-reddit","/nsfw-pages/reddit-nsfw-bra",
     "/nsfw-pages/reddit-favorite-nsfw","/nsfw-pages/reddit-classy-nsfw","/nsfw-pages/reddit-nsfw-cougars","/nsfw-pages/reddit-nsfw-fitness","/nsfw-pages/nsfw-busted-reddit","/nsfw-pages/belle-delphine-nsfw-reddit","/nsfw-pages/eating-her-out-nsfw-reddit",
     "/nsfw-pages/furry-games-nsfw-reddit","/nsfw-pages/nsfw-heels-reddit","/nsfw-pages/nsfw-playboy-reddit","/nsfw-pages/reddit-nsfw-cheerleader","/nsfw-pages/reddit-nsfw-pick-one","/nsfw-pages/reddit-cute-nsfw","/nsfw-pages/fallout-nsfw-reddit",
@@ -24,18 +24,18 @@ window.addEventListener("load", () => {
     "/nsfw-pages/reddit-nsfw-bride","/nsfw-pages/reddit-nsfw-transformation","/nsfw-pages/nsfw-military-reddit","/nsfw-pages/black-women-nsfw-reddit","/nsfw-pages/nymphos-nsfw-reddit","/nsfw-pages/reddit-nsfw-pornstars",
     "/nsfw-pages/nsfw-disney-reddit","/nsfw-pages/reddit-nsfw-festival","/nsfw-pages/reddit-fire-emblem-nsfw","/nsfw-pages/reddit-models-nsfw","/nsfw-pages/muslim-nsfw-reddit","/nsfw-pages/reddit-instagram-nsfw","/nsfw-pages/reddit-asian-american-nsfw",
     "/nsfw-pages/reddit-skinny-nsfw","/nsfw-pages/nsfw-reddit-feed","/nsfw-pages/reddit-amisexy-nsfw","/nsfw-pages/nsfw-skyrim-reddit","/nsfw-pages/reddit-nsfw-mirror-selfies","/nsfw-pages/sexually-frustrated-reddit-nsfw","/nsfw-pages/reddit-nsfw-frontpage",
-    "/nsfw-pages/reddit-nsfw-jilling","/nsfw-pages/reddit-nsfw-barista","/nsfw-pages/reddit-leggings-nsfw","/nsfw-pages/titties-nsfw","/nsfw-pages/upskirt-nsfw",];
+    "/nsfw-pages/reddit-nsfw-jilling","/nsfw-pages/reddit-nsfw-barista","/nsfw-pages/reddit-leggings-nsfw","/nsfw-pages/titties-nsfw","/nsfw-pages/upskirt-nsfw","/nsfw-pages/reddit-nsfw-assholes-behind-thongs","/nsfw-pages/futa-hentai-nsfw",];
 
 
-    var aLinkName = ["Reddit NSFW 🔥","Gone Wild 😈","Nudes ✨","Nsfw comics","Tiktok NSFW","Cum","XXX","Best NSFW","Random Sexy","Dirty","Porn","Korean","Anime","Petite Wild","Hardcore","Chinese","Billie Eilish","Swingers Wild","Milf",
-    "Omegle","Tinder","Public","Lingerie","Hero Academia","Scrubs","Braces","Victoria Secret","Tight Dress","Legal Teens","Perfect Tits","Steven Universe","Webcam NSFW","Cosplay NSFW","Asian","Anal","Games","Hijab","Lesbian","Gif NSFW","Tease",
-    "RWBY NSFW","Pokimane","Indian","Bikini","Beach NSFW","Trashy","Wife","Take It Off","At Work","Mom NSFW","Real Girls","Big Brother","Dress NSFW","Feet","Blacked","Latina","College NSFW","Snapchat NSFW",
-    "Fit Girls NSFW","Pierced NSFW","Gabbie Carter","Dare NSFW","Spanking","Panties","Flashing","Yoga NSFW","Witcher NSFW","Young","Shower NSFW","Grool","NSFW Outfits","Ariana Grande","Progress Pics NSFW","Japan","Redhead NSFW",
-    "Pregnant NSFW","Romi Rain","Throat NSFW","Busty","GirlFriend NSFW","Boudoir NSFW","Goth NSFW","Chubby NSFW","BBC","Mixed NSFW","Sakimichan NSFW","Blonde NSFW","Exhibitionist Fun","Tattoo NSFW","Cleavage","KPOP NSFW",
+    var aLinkName = ["Reddit NSFW 🔥","Gone Wild 😈","Nudes ✨","Nsfw comics","Tiktok NSFW","Cum","Blowjob","XXX","Best NSFW","Random Sexy","Dirty","Porn","Korean","Anime","Petite Wild","Hardcore","Chinese","Billie Eilish","Swingers Wild","Milf",
+    "Omegle","Tinder","Public","Lingerie","Hero Academia","Creampie","Scrubs","Braces","Victoria Secret","Tight Dress","Legal Teens","Perfect Tits","Steven Universe","Webcam NSFW","Cosplay NSFW","Asian","Anal","Threesome","Games","Hijab","Lesbian",
+    "Gif NSFW","Tease", "RWBY NSFW","Hentai","Pokimane","Indian","Bikini","Beach NSFW","Trashy","Wife","Pawg","Take It Off","At Work","Mom NSFW","Real Girls","Big Brother","Dress NSFW","Feet","Blacked","Latina","College NSFW","Snapchat NSFW","Cuckold",
+    "Fit Girls NSFW","Pierced NSFW","Gabbie Carter","Dare NSFW","Spanking","Panties","Flashing","Yoga NSFW","Witcher NSFW","Young","Shower NSFW","Grool","NSFW Outfits","Interracial","Ariana Grande","Progress Pics NSFW","Japan","Redhead NSFW",
+    "Pregnant NSFW","Romi Rain","Throat NSFW","Busty","GirlFriend NSFW","Boudoir NSFW","Goth NSFW","Chubby NSFW","BBC","Mixed NSFW","Sakimichan NSFW","Blonde NSFW","Exhibitionist Fun","Tattoo NSFW","Cleavage","BDSM","KPOP NSFW","Camel Toe",
     "Glasses NSFW","Teacher NSFW","Squirting","Russian NSFW","Pixel NSFW","Adorable NSFW","Harley Quinn NSFW","Overwatch NSFW","Tan Lines NSFW","Changing Room NSFW","Thai NSFW","DDLC NSFW","BRA NSFW","Favorite NSFW","Classy NSFW",
     "Cougars","Fitness NSFW","Busted Holes","Belle Delphine","Eating Her Out","Furry NSFW","Heels NSFW","Playboy","Cheerleader","Pick One","Cute NSFW","Fallout NSFW","Group NSFW","Thick NSFW","Outdoors NSFW","Mature","Orgasm",
     "Cyberpunk NSFW","Tiny NSFW","Bride NSFW","Transformation NSFW","Military NSFW","Black Women","Nymphos","Pornstars","Disney NSFW","Festival NSFW","Fire Emblem NSFW","Models NSFW","Muslim NSFW","Instagram NSFW","Asian American NSFW",
-    "Skinny NSFW","Feed NSFW","AmISexy NSFW","Skyrim NSFW","Mirror Selfie NSFW","Sexually Frustrated","Frontpage NSFW","Jilling","Barista NSFW","Leggings NSFW","Titties NSFW","Upskirt NSFW",];
+    "Skinny NSFW","Feed NSFW","AmISexy NSFW","Skyrim NSFW","Mirror Selfie NSFW","Sexually Frustrated","Frontpage NSFW","Jilling","Barista NSFW","Leggings NSFW","Titties NSFW","Upskirt NSFW","Assholes Behind Thong","Futa Hentai",];
     
     // store url pathname as string into current variable 
     const currentUrl = window.location.pathname.toString();
