@@ -226,3 +226,22 @@ cancelPay.addEventListener("click", () => {
   document.querySelector(".landing-page-visible").classList.remove("filter-blur");
   document.querySelector(".image-click-container").classList.add("hide");
 });
+
+// Prevent Screenshots and Print Functions on page
+/** TO DISABLE SCREEN CAPTURE **/
+document.addEventListener('keyup', (e) => {
+  if (e.key == 'PrintScreen') {
+      navigator.clipboard.writeText('');
+      alert('Privacy Breach: Screenshots disabled!');
+  }
+});
+
+/** TO DISABLE PRINTS WHIT CTRL+P **/
+document.addEventListener('keydown', (e) => {
+  if (e.ctrlKey && e.key == 'p') {
+      alert('Privacy Breach: This section is not allowed to print or export to PDF');
+      e.cancelBubble = true;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+  }
+});
