@@ -44,7 +44,7 @@ body {
     background: #000
 }
 
-#filter-blur {
+.image-blur {
     filter: blur(6px)
 }
 
@@ -482,7 +482,7 @@ body::-webkit-scrollbar-thumb:hover {
     margin-top: 70px
 }
 
-.showcase-wrapper .showcase-other {
+.showcase-wrapper .showcase-other, .showcase-wrapper .blur-toggle-wrap {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -493,6 +493,53 @@ body::-webkit-scrollbar-thumb:hover {
 .showcase-wrapper .showcase-other i {
     font-size: 2.5rem
 }
+
+/* Blur Check */
+.blur-toggle-wrap h4 {
+    font-size: 1.4rem;
+  }
+
+#switch[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  #blur-toggle {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 25%;
+    height: 28px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  #blur-toggle:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  #switch:checked + label {
+    background: #bada55;
+  }
+  
+  #switch:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  #blur-toggle:active:after {
+    width: 40px;
+  }
 
 .sidebar .showcase {
     display: flex;

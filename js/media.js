@@ -1,28 +1,6 @@
 // directory of where to source files such as images, gifs etc stored in a variable
 const mediaSourceDirectory = document.getElementById("media-source-directory").textContent;
 
-// Payment Request Popup Elements on image click being dynamically created
-const imageClickPopup = document.createElement("div");
-const imageClickPopupInner = document.createElement("div");
-imageClickPopup.className = "image-click-container hide";
-imageClickPopupInner.className = "image-click";
-imageClickPopupInner.innerHTML = `
-    <h3>OH No! <br><br> You Have Unlocked This Media!</h3>
-    <p>Want to send a personal like?</p>
-    <i class="fa-solid fa-heart"></i>
-    <div class="pay-select">
-        <button id="to-pay-btn">Yes</button>
-        <button id="do-not-proceed">No</button>
-    </div>
-    <br>
-    <div id="popup-lower-text">
-      <p>Unlimited Content - Cheaper Than OnlyFans!!</p>
-    </div>`;
-
-    // Append Payment Request elements to container and body of website
-imageClickPopup.appendChild(imageClickPopupInner);
-document.body.appendChild(imageClickPopup);
-
 // Main Site Function fetch and return images, gifs to display
 var after = "";
 function shuffle(array) {
@@ -78,7 +56,7 @@ function fetchMedia() {
               let div = document.createElement("div");
               let h4 = document.createElement("h4");
               let image = document.createElement("img");
-              image.id = "filter-blur";
+              image.classList = "image-blur";
               image.loading = "lazy";
               image.title = `${mediaSourceDirectory}`;
               image.alt = `${mediaSourceDirectory}`;
@@ -95,7 +73,10 @@ function fetchMedia() {
 
                // Image Click Pay Request Function
                image.addEventListener("click", () => {
-                image.removeAttribute("id");
+                if(image.classList.contains("image-blur")){
+                  image.removeAttribute("class");
+                  image.id = "blur-removed";
+                }
                 document.querySelector(".landing-page-visible").classList.add("filter-blur");
                 document.querySelector(".image-click-container").classList.remove("hide");
               })
@@ -103,9 +84,21 @@ function fetchMedia() {
               // disable right Click function/ browser context menu to show popup box
               image.addEventListener("contextmenu", function(event) {
                 event.preventDefault();
-                image.removeAttribute("id");
+                image.removeAttribute("class");
                 document.querySelector(".landing-page-visible").classList.add("filter-blur");
                 document.querySelector(".image-click-container").classList.remove("hide");
+              })
+
+              // Disable Blur - On/Off
+              const blurContainer = document.getElementById("blur-toggle");
+              blurContainer.addEventListener("click", () => {
+                if(image.classList.contains("image-blur")){
+                  image.classList.remove("image-blur");
+                }else if(!image.classList.contains("image-blur")){
+                  image.classList.add("image-blur");
+                }if(image.id === "blur-removed"){
+                  image.classList.remove("image-blur");
+                }
               })
             })
             document.querySelector(".content-wrap").appendChild(parentdiv);
@@ -129,6 +122,41 @@ window.onload = function () {
     }, 2000);
 };
 
+// Payment Request Popup Elements on image click being dynamically created
+const imageClickPopup = document.createElement("div");
+const imageClickPopupInner = document.createElement("div");
+imageClickPopup.className = "image-click-container hide";
+imageClickPopupInner.className = "image-click";
+imageClickPopupInner.innerHTML = `
+    <h3> You Have Unlocked This Media!</h3>
+    <p>Want to send a personal like?</p>
+    <i class="fa-solid fa-heart"></i>
+    <div class="pay-select">
+        <button id="to-pay-btn">Yes</button>
+        <button id="do-not-proceed">No</button>
+    </div>
+    <br>
+    <div id="popup-lower-text">
+      <p>Unlimited Content - Cheaper Than OnlyFans!!</p>
+    </div>`;
+
+    // Append Payment Request elements to container and body of website
+imageClickPopup.appendChild(imageClickPopupInner);
+document.body.appendChild(imageClickPopup);
+
+// Create Blur Toggle button for pages
+const toggleBlurWrap = document.createElement("div");
+const sidebarAppend = document.querySelector(".showcase-wrapper");
+toggleBlurWrap.className = "blur-toggle-wrap";
+toggleBlurWrap.innerHTML = `
+    <h4>Blur On - Off</h2>
+    <input type="checkbox" id="switch" />
+    <label id="blur-toggle" for="switch">Toggle</label>`;
+
+// Append Blur toggle to sidebar div
+sidebarAppend.appendChild(toggleBlurWrap);
+
+// Share Button
 const shareBtn = document.getElementById("share-button");
 function shareList() {
     if (navigator.canShare) {
