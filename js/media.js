@@ -101,6 +101,9 @@ function fetchMedia() {
                     image.classList.remove("image-blur");
                   }
                 }
+                if(!checkbox.checked) {
+                  image.classList.add("image-blur");
+                }
               })
             })
             document.querySelector(".content-wrap").appendChild(parentdiv);
