@@ -90,23 +90,27 @@ function fetchMedia() {
               })
 
               // Disable Blur - On/Off
-              const blurContainer = document.getElementById("blur-toggle");
-              blurContainer.addEventListener("click", () => {
-                if(image.classList.contains("image-blur")){
-                  image.classList.remove("image-blur");
-                }else if(!image.classList.contains("image-blur")){
-                  image.classList.add("image-blur");
-                }if(image.id === "blur-removed"){
-                  image.classList.remove("image-blur");
+              const checkbox = document.querySelector("input[type='checkbox']");
+              checkbox.addEventListener("click", () => {
+                if(checkbox.checked) {
+                  if(image.classList.contains("image-blur")){
+                    image.classList.remove("image-blur");
+                  }else if(!image.classList.contains("image-blur")){
+                    image.classList.add("image-blur");
+                  }if(image.id === "blur-removed"){
+                    image.classList.remove("image-blur");
+                  }
                 }
               })
             })
             document.querySelector(".content-wrap").appendChild(parentdiv);
             const mediaBtn = document.getElementById("load-more");
+            const checkbox = document.querySelector("input[type='checkbox']");
             mediaBtn.addEventListener("click", () => {
-            fetchMedia();
-            window.scroll({top: 0, behavior: "smooth"});
-        })
+              fetchMedia();
+              window.scroll({top: 0, behavior: "smooth"});
+              checkbox.checked = false;
+            })
     })
     .catch((e) => {
       console.log(e);
